@@ -1,0 +1,28 @@
+.text-cont{
+    display: block;
+    text-align: start;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.text-cont1{
+    display: block;
+    text-align: start;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+.check0{
+    display: flex;
+}
+
+.check{
+    font-size: 1.5rem;
+    margin: 1rem 5px;
+    display: block;
+    text-align: start;
+}
+.text_rgpd{
+    display: block;
+    text-align: start;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}

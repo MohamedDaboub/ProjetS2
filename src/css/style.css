@@ -1,0 +1,16 @@
+.img1 {
+    max-width: 50%;
+    height: 50%;
+    z-index: 5;
+}
+.text_qui_somme{
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: -10rem;
+}
+@media(max-width: 1428px){
+    .text_qui_somme{
+        font-size: 2rem;
+        margin: 1rem;
+    }
+}

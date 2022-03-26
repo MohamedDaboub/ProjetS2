@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;500;600;700&display=swap');
 @import url('layout/footer.css');
 @import url('layout/card.css');
 @import url('utils/contact.css');
@@ -20,6 +22,13 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
+}
+h1, h2, h3, h4, h5, span {
+    font-family: 'Tinos', serif;
+    font-weight: 700;
+}
+p{
+    font-family: 'Fira Sans', sans-serif;
 }
 
 html{
@@ -136,25 +145,17 @@ section{
     backdrop-filter: blur(.4rem);
 }
 
-.header .logo {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    color:var(--noir);
-    text-transform: uppercase;
-}
-
-.header .logo i{
-    color:var(--black);
-}
 
 .header .navbar a{
     font-size: 1.7rem;
     margin-left: 2rem;
     color:var(--noir);
+    font-family: 'Yaldevi', sans-serif;
+    font-weight: 700;
 }
 
 .header .navbar a:hover{
-    color:var(--black);
+    color:#8d6bdb;
 }
 
 #menu-btn{
@@ -224,7 +225,7 @@ section{
     font-size: 2rem;
     color:var(--noir);
     line-height: 1.8;
-    padding:1rem 0;
+    padding:1rem;
 }
 
 .courses .box-container .box .icons{

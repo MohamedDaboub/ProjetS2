@@ -228,12 +228,10 @@ section{
 }
 
 .courses .box-container .box .icons{
-    border-top: var(--border-top);
+    /* border-top: var(--border-top); */
+    border-top:#123456;
     margin-top: 2rem;
     padding-top: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .courses .box-container .box .icons a{
@@ -538,7 +536,8 @@ i {
     }
 
     .home .content h3{
-        font-size: 3.5rem;
+        font-size: 3rem;
+        margin: 1.2rem;
     }
 
     .home .content p{

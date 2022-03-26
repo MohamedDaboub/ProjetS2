@@ -14,3 +14,13 @@
         margin: 1rem;
     }
 }
+@media(max-width: 500px){
+
+}
+.section_lets{
+    padding:2rem 11%;
+}
+.end{
+    display: flex;
+    text-align: end;
+}

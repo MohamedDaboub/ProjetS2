@@ -47,7 +47,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:var(--noir);
+    background:#fff;
     border-radius: 3rem;
 }
 

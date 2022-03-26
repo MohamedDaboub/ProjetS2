@@ -5,7 +5,7 @@
 @import url('layout/header.css');
 :root{
     --black:#130f40;
-    --white:#000;
+    --noir:#000;
     --gradient:linear-gradient(#529BCD, #fff);
     --background:rgba(255,255,255,.1);
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
@@ -20,7 +20,6 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
 }
 
 html{
@@ -39,7 +38,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:var(--white);
+    background:var(--noir);
     border-radius: 3rem;
 }
 
@@ -59,7 +58,7 @@ section{
     border-top:var(--border-top);
     border-left:var(--border-left);
     font-size: 4rem;
-    color:var(--white);
+    color:var(--noir);
     padding:.5rem 1.5rem;
     text-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     box-shadow: var(--box-shadow);
@@ -69,8 +68,8 @@ section{
     margin-top: 1rem;
     display: inline-block;
     transition: .2s linear;
-    background:#fff;
-    color:#000;
+    background:#123456;
+    color:#fff;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     padding:.8rem 3rem;
@@ -140,7 +139,7 @@ section{
 .header .logo {
     font-size: 2.5rem;
     font-weight: bolder;
-    color:var(--white);
+    color:var(--noir);
     text-transform: uppercase;
 }
 
@@ -151,7 +150,7 @@ section{
 .header .navbar a{
     font-size: 1.7rem;
     margin-left: 2rem;
-    color:var(--white);
+    color:var(--noir);
 }
 
 .header .navbar a:hover{
@@ -161,7 +160,7 @@ section{
 #menu-btn{
     font-size: 3rem;
     cursor: pointer;
-    color:var(--white);
+    color:var(--noir);
     display: none;
 }
 
@@ -179,7 +178,7 @@ section{
 }
 
 .home .content h3{
-    color: var(--white);
+    color: var(--noir);
     text-transform: uppercase;
     font-size: 4rem;
     line-height: 1.8;
@@ -188,7 +187,7 @@ section{
 
 .home .content p{
     font-weight: 300;
-    color: var(--white);
+    color: var(--noir);
     font-size: 2rem;
     line-height: 1.8;
     padding:1rem 0;
@@ -218,12 +217,12 @@ section{
 
 .courses .box-container .box h3{
     font-size: 2rem;
-    color:var(--white);
+    color:var(--noir);
 }
 
 .courses .box-container .box p{
     font-size: 1.5rem;
-    color:var(--white);
+    color:var(--noir);
     line-height: 1.8;
     padding:1rem 0;
 }
@@ -239,7 +238,7 @@ section{
 
 .courses .box-container .box .icons a{
     font-size: 1.6rem;
-    color:var(--white);
+    color:var(--noir);
 }
 
 .courses .box-container .box .icons a:hover{
@@ -277,13 +276,13 @@ section{
 
 .teachers .box-container .box h3{
     font-size: 2.2rem;
-    color:var(--white);
+    color:var(--noir);
     padding:.5rem 0;
 }
 
 .teachers .box-container .box span{
     font-size: 1.6rem;
-    color:var(--white);
+    color:var(--noir);
 }
 
 .teachers .box-container .box .share{
@@ -297,7 +296,7 @@ section{
     font-size: 2rem;
     background:var(--background);
     box-shadow: var(--box-shadow);
-    color:var(--white);
+    color:var(--noir);
     border-radius: .5rem;
     margin:.5rem;
 }
@@ -325,7 +324,7 @@ section{
 }
 
 .plan .box-container .box i{
-    color:var(--white);
+    color:var(--noir);
     font-size: 7rem;
     padding:1rem 0;
 }
@@ -336,8 +335,8 @@ section{
 
 .plan .box-container .box h3{
     background:rgba(255,255,255,.4);
-    font-size: 5rem;
-    padding:1rem 5px;
+    font-size: 4rem;
+    padding:1rem 25px;
     margin:1rem 0;
     margin-top: 2rem;
     color:var(--black);
@@ -350,7 +349,7 @@ section{
 
 .plan .box-container .box ul li{
     padding:1rem 0;
-    color:var(--white);
+    color:var(--noir);
     font-size: 1.6rem;
 }
 
@@ -373,7 +372,7 @@ section{
     font-size: 6rem;
     padding-top: 1rem;
     font-weight: bolder;
-    color:var(--white);
+    color:var(--noir);
 }
 
 .plan .box-container .box .price span{
@@ -420,7 +419,7 @@ section{
 .review .box-container .box h3{
     padding-top:.5rem;
     font-size: 2.2rem;
-    color:var(--white);
+    color:var(--noir);
 }
 
 .review .box-container .box span{
@@ -430,7 +429,7 @@ section{
 
 .review .box-container .box p{
     font-size: 1.5rem;
-    color:var(--white);
+    color:var(--noir);
     padding:1rem 0;
     line-height: 1.8;
 }
@@ -466,7 +465,7 @@ section{
     box-shadow: var(--box-shadow);
     padding:1rem 1.2rem;
     font-size: 1.5rem;
-    color:var(--white);
+    color:var(--noir);
     text-transform: none;
     font-weight: 300;
 }

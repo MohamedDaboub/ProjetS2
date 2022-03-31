@@ -1,3 +1,6 @@
+
+  AOS.init();
+
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.navbar');
 
@@ -13,26 +16,26 @@ window.onscroll = () =>{
 
 // animated background 
 
-function createBox() {
+// function createBox() {
 
-    let span = document.createElement('span');
+//     let span = document.createElement('span');
 
-    span.classList.add('animated-box');
+//     span.classList.add('animated-box');
 
-    let size = Math.random() * 80;
+//     let size = Math.random() * 80;
 
-    span.style.height = 40 + size + 'px';
-    span.style.width = 40 + size + 'px';
+//     span.style.height = 40 + size + 'px';
+//     span.style.width = 40 + size + 'px';
 
-    span.style.top = Math.random() * innerHeight + 'px';
-    span.style.left = Math.random() * innerWidth + 'px';
+//     span.style.top = Math.random() * innerHeight + 'px';
+//     span.style.left = Math.random() * innerWidth + 'px';
 
-    document.querySelector('.gradient-background').appendChild(span);
+//     document.querySelector('.gradient-background').appendChild(span);
 
-    setTimeout(() =>{
-        span.remove();
-    },3000)
+//     setTimeout(() =>{
+//         span.remove();
+//     },3000)
 
-}
+// }
 
-setInterval(createBox, 400);
+// setInterval(createBox, 400);

@@ -1,0 +1,35 @@
+.btndiv{
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 8rem;
+    margin-top: -12rem;
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    transition: .2s linear;
+    background:#123456;
+    color:#fff;
+    border-radius: 3rem;
+    box-shadow: var(--box-shadow);
+    padding:2rem 8rem;
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+.btn1{
+    margin-top: 1rem;
+    display: inline-block;
+    transition: .2s linear;
+    background:#123456;
+    color:#fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    letter-spacing: .1rem;
+}

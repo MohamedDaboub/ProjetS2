@@ -7,9 +7,11 @@
     <title>Let's Draw</title>
     <link rel="icon" type="image/svg"  href="public/icones/logo-site.svg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+	<script src="https://animejs.com/lib/anime.min.js"></script>
     <link rel="stylesheet" href="src/css/styles.css">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 <body>
@@ -19,16 +21,12 @@
 
 <header class="header">
 
-    <a href="index.html"><img class="logo-site" src="public/icones/logo-site.svg" alt=""></a>
+    <a href="index.html#home"><img class="logo-site" src="public/icones/logo-site.svg" alt=""></a>
 
     <nav class="navbar">
-        <a href="#home">ACCUEIL</a>
-        <a href="#let's_draw">C’est Quoi ?</a>
+        <a href="#let's_draw">C’est quoi ?</a>
         <a href="#a_propos">À propos</a>
-        <a href="#Certifications">Certifications</a>
-        <a href="#review">Avis</a>
         <a href="#contact">Contact</a>
-        <a href="#contact" class="info">S’inscrire</a>
     </nav>
 
     <div id="menu-btn"> <i class="bi bi-list"></i></div>
@@ -36,289 +34,202 @@
 </header>
 
 
-<section class="home" id="home">
-
-    <div class="content">
-        <div class="eren">
-            <h3>Des dessins d'enfants aux artistes du présent, partagez vos dessins aux dessinateurs de demain </h3>
-            <img class="eren2" src="public/img/eren.png" alt="">
-        </div>
-        <p>Let’s Draw est la 1 ère plateforme où l’on peut échanger un dessin avec un artiste qui le rendra unique. Que vous soyez un artiste ou un adulte qui partage le dessin de son enfant, vous trouverez du plaisir à naviguer sur Let’s Draw.</p>
-        <a href="#" class="btn">S’inscrire</a>
-    </div>
-
-</section>
-
-<section class="courses section_lets" id="let's_draw">
-
-    <h1 class="heading"> <span>C’est Quoi Let’s Draw ?</span> </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <img src="public/img/table-gd18f077b3_1920 1.jpg" alt="">
-            <h3>Coloriez</h3>
-            <p>Récupérez un dessin de votre enfance ou celui de votre enfant</p>
-            <div class="icons">
-                <p class="end">1</p> 
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="public/img/image 1.jpg" alt="">
-            <h3>Photographiez</h3>
-            <p>Prenez en photo ou scannez le dessin</p>
-            <div class="icons">
-                <p class="end">2</p> 
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="public/img/image 2.jpg" alt="">
-            <h3>Envoyer</h3>
-            <p>Envoyez le dessin à l’artiste de votre choix</p>
-            <div class="icons">
-                <p class="end">3</p> 
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="public/img/image_4.png" alt="">
-            <h3>Patientez</h3>
-            <p>Patientez le temps que l’artiste dessine votre dessin</p>
-            <div class="icons">
-                <p class="end">4</p> 
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="public/img/image 5.jpg" alt="">
-            <h3>Admirez</h3>
-            <p>Vous pouvez maintenant admirer votre dessin réaliser par l’artiste</p>
-            <div class="icons">
-                <p class="end">5</p> 
-            </div>
-        </div>
-
-        <div class="box">
-            <img src="public/img/image_6.png" alt="">
-            <h3>Donnez</h3>
-            <p>Récupérez un dessin de votre enfance ou celui de votre enfant</p>
-            <div class="icons">
-                <p class="end">6</p> 
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-
-<section class="teachers" id="a_propos">
-
-    <h1 class="heading"> <span>Qui sommes-nous ?</span> </h1>
-    <p class="text_qui_somme">Nous sommes 3 étudiants en BUT MMI. Nous avons réaliser ce concept lors d’un projet durant notre 1 ère année.  Merci de votre compréhension.</p>
-    <section class="maine">
-        <div class="container">
-            <div class="cards">
-                <div class="imgbox">
-                    <img src="public/img/Florenten_Demortiere.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="details">
-                        <h3>Florentien Demortiere <br><span>Designer</span></h3>
-                    
-                        <ul class="social_icones">
-                            <li><a href="https://www.pinterest.fr/flodemortiere9154/_saved/"><i class="bi bi-pinterest"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/florentin-demortiere-a19551224/"><i class="bi bi-linkedin"></i></a></li>
-                            <li><a href="https://www.instagram.com/flo.dem_/"><i class="bi bi-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="cards">
-                <div class="imgbox">
-                    <img src="public/img/Mohamed_Daboub.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="details">
-                        <h3>Mohamed Daboub <br><span>Développeur</span></h3>
-                        <ul class="social_icones">
-                            <li><a href="https://discord.com/channels/@me"><i class="bi bi-discord"></i></a></li>
-                            <li><a href="https://www.instagram.com/daboub_mohamed_/"><i class="bi bi-instagram"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/mohamed-daboub-12376a224/"><i class="bi bi-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="cards">
-                <div class="imgbox">
-                    <img src="public/img/Ludovic_Faye.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="details">
-                        <h3>Ludovic Faye <br><span>Communication</span></h3>
-                        <ul class="social_icones">
-                            <li><a href="https://www.facebook.com/profile.php?id=100004857558295"><i class="bi bi-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/ludovic-faye-7b0836186/"><i class="bi bi-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    <section class="home imghome" id="home">
+        <div class="content">
+                <h3>Enfants & artistes, présentez votre coup de pinceau, partagez votre talent sur Let's Draw</h3>
+            <p>Let’s Draw est la 1 ère plateforme où l’on peut échanger un dessin avec un artiste qui le rendra unique. Que vous soyez un artiste ou un adulte qui partage le dessin de son enfant, vous trouverez du plaisir à naviguer sur Let’s Draw.</p>
         </div>
     </section>
-
-</section>
-<section class="plan" id="Certifications">
-
-    <h1 class="heading"> <span>Nos Certifications</span> </h1>
-    <div class="box-container">
-
-        <div class="box">
-            <img class="img1" src="public/img/verrou.png">
-            <h3>Site 100 % Sécurisé</h3>
-        </div>
-
-        <div class="box">
-            <img class="img1" src="public/img/france.png">
-            <h3>Site certifié Made In France</h3>
-        </div>
-
-
+    <div class="btndiv">
+        <a href="#contact" class="btn">S'informer</a>
     </div>
 
-</section>
+    <section class="section_lets" id="let's_draw">
 
+        <h1 class="heading"> <span>C’est Quoi Let’s Draw ?</span> </h1>
 
-<section class="review" id="review">
-
-    <h1 class="heading"> <span>Avis de nos utilisateurs</span> </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <div class="image">
-                <img class="utilisateur" src="image/pic-1.png" alt="">
+        <div class="grid">
+            <div class="card card--1"  data-aos="fade-right" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <div class="card_box">
+                    <img class="igmcard img-card" src="public/img/image-1.webp" alt="une image qui montre une dessin fait pas l'enfant">
+                    <h3 class="card-h">Coloriez</h3>
+                    <p class="card-ph centre">Récupérez un dessin de votre enfance ou celui de votre enfant</p>
+                </div>
             </div>
-            <h3>DUBOIS SIMONIN LYDIA</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, enim?</p>
-            <div class="stars">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-half"></i>
+            <div class="card1 card--2" data-aos="fade-left" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <div class="card_box">
+                    <img class="img-card" src="public/img/image-2.webp" alt="une image qui montre que il faut prendre en photo le dessin">
+                    <h3 class="card-h">Photographiez</h3>
+                    <p class="card-ph centre">Prenez en photo ou scannez le dessin</p>
+                </div>
             </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img class="utilisateur" src="image/pic-2.png" alt="">
+            <div class="card card--3">
+                <div class="card_box " data-aos="fade-right" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                    <img class="img-card" src="public/img/image-3.webp" alt="une image qui montre qu'il faut envoyer l'image à artiste">
+                    <h3 class="card-h">Envoyez</h3>
+                    <p class="card-ph centre">Envoyez le dessin à l’artiste de votre choix</p>
+                </div>
             </div>
-            <h3>john deo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, enim?</p>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
+            <div class="card1 card--4">
+                <div class="card_box droite " data-aos="fade-left" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                    <img class="img-card" src="public/img/image-4.webp" alt="une image qui montre qu'il faut patienter le temps que son image arrive">
+                    <h3 class="card-h">Patientez</h3>
+                    <p class="card-ph centre">Patientez le temps que l’artiste dessine votre dessin</p>           
+                </div>
             </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img class="utilisateur" src="image/pic-3.png" alt="">
+            <div class="card card--5">
+                <div class="card_box" data-aos="fade-right" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                    <img class="img-card igmcard " src="public/img/image-5.webp" alt="Une image de dessin fait par artiste est envoyée à ses parents">
+                    <h3 class="card-h">Admirez</h3>
+                    <p class="card-ph centre">Vous pouvez maintenant admirer votre dessin réaliser par l’artiste</p>
+                </div>
             </div>
-            <h3>john deo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, enim?</p>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-            </div>
-        </div>
-
-       
-
-    </div>
-
-</section>
-
-
-
-<section class="contact" id="contact">
-
-    <h1 class="heading"> <span>Contact nous</span> </h1>
-    <form action="#" method="post"> 
-        <h5 class="mot-contact" >Pour nous contacter ou avoir plus d'informations veuillez remplir ce formulaire ci-dessous !</h5>
-        <p>
-          <label for="name" class="text-cont" >Votre nom<br>
-            <input type="text" id="name" name="name" value="" placeholder="  Entre votre Prenom et Nom" class="box">
-          </label>
-        </p>
-        <p>
-            <label for="email" class="text-cont">Votre e-mail*<br>
-              <input type="email" id="email" name="email" value="" placeholder="  Entre votre mail" required class="box">
-            </label>
-          </p>
-        <p>
-          <label for="message" class="text-cont">Votre message*<br>
-            <textarea id="message" name="message"  placeholder="  Entre votre message" rows="7" required class="box"></textarea>
-          </label>
-        </p>
-        <div class="check0">
-            <input type="checkbox" id="j'accepte" name="j'accepte"
-                   checked class="check">
-            <label for="j'accepte" class="check">J'ai compris et j'accepte (2)</label>
-          </div>
-        <em class="text-cont1">Champs obligatoires*</em>
-        <div>
-          <button type="submit" class="btn">Envoyer</button>
-        </div>
-        <p class="text_rgpd">(2) En communiquant mes informations, je consens à être recontacté par voie électronique ou téléphonique par Mohamed Daboub. Ces données seront conservées durant 30 jours afin de pouvoir traiter au mieux ma Demande. Je pourrai faire modifier ou supprimer mes informations sur simple demande.</p>
-      </form>
-
-</section>
-<footer class="footer">
-    <div class="container1">
-        <div class="row">
-            <div class="footer-col">
-                <h4>Lien</h4>
-                <ul>
-                    <li><a href="#home">ACCUEIL</a></li>
-                    <li><a href="#let's_draw">C’est Quoi ?</a></li>
-                    <li><a href="#a_propos">À propos</a></li>
-                    <li><a href="#Certification">Certifications</a></li>
-                    <li><a href="#review">Avis</a></li>
-                    <li><a href="#contact">contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Obtenir de l'aide</h4>
-                <ul>
-                    <li><a href="mailto:lets.draw250@gmail.com">lets.draw250@gmail.com</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Informations</h4>
-                <ul>
-                    <li><a class="mention" href="mentionlegale.html">Mention légale</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Suivez-nous</h4>
-                <div class="social-links">
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="https://www.pinterest.fr/letsdraw250/_saved/"><i class="bi bi-pinterest"></i></a>
+            <div class="card1 card--6" data-aos="fade-left" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <div class="card_box">
+                    <img class="img-card imggcard" src="public/img/image-6.webp" alt="uUne image qui montre une main qui tient un cœur ">
+                    <h3 class="card-h">Donnez</h3>
+                    <p class="card-ph centre">Faîtes un don pour aider les artistes et l’association Unicef</p>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+
+    </section>
+
+
+    <section id="a_propos">
+
+        <h1 class="heading"> <span>Qui sommes-nous ?</span> </h1>
+        <p class="text_qui_somme">Nous sommes 3 étudiants en BUT MMI. Nous avons réaliser ce concept lors d’un projet durant notre 1 ère année.  Merci de votre compréhension.</p>
+        <section class="maine">
+            <div class="container">
+                <div class="cards">
+                    <div class="imgbox">
+                        <img src="public/img/Florenten_Demortiere.webp" alt="une image de Florentin Demortiere qui fait le design dans le groupe">
+                    </div>
+                    <div class="content">
+                        <div class="details">
+                            <h3>Florentin Demortiere <br><span>Designer</span></h3>
+                        
+                            <ul class="social_icones">
+                                <li><a href="https://www.pinterest.fr/flodemortiere9154/_saved/"><i class="bi bi-pinterest"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/florentin-demortiere-a19551224/"><i class="bi bi-linkedin"></i></a></li>
+                                <li><a href="https://www.instagram.com/flo.dem_/"><i class="bi bi-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="imgbox">
+                        <img src="public/img/Mohamed_Daboub.webp" alt="une image de Mohamed Daboub qui fait le Développement dans le groupe">
+                    </div>
+                    <div class="content">
+                        <div class="details">
+                            <h3>Mohamed Daboub <br><span>Développeur</span></h3>
+                            <ul class="social_icones">
+                                <li><a href="https://discord.com/channels/@me"><i class="bi bi-discord"></i></a></li>
+                                <li><a href="https://www.instagram.com/daboub_mohamed_/"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/mohamed-daboub-12376a224/"><i class="bi bi-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="imgbox">
+                        <img src="public/img/Ludovic_Faye.webp" alt="une image de Ludovic Faye qui fait la communication dans le groupe">
+                    </div>
+                    <div class="content">
+                        <div class="details">
+                            <h3>Ludovic Faye <br><span>Communication</span></h3>
+                            <ul class="social_icones">
+                                <li><a href="https://www.facebook.com/profile.php?id=100004857558295"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/ludovic-faye-7b0836186/"><i class="bi bi-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>Contactez nous</span> </h1>
+        <form action="#" method="post"> 
+            <h5 class="mot-contact" >Pour nous contacter ou avoir plus d'informations veuillez remplir ce formulaire ci-dessous !</h5>
+            <p>
+                <label for="firstname" class="text-cont" >Votre Prénom
+                <input type="text" id="firstname" name="firstname" value="" placeholder="entre votre Prenom" class="box">
+                </label>
+            </p>
+            <p>
+            <label for="name" class="text-cont" >Votre nom
+                <input type="text" id="name" name="name" value="" placeholder="entre votre Nom" class="box">
+            </label>
+            </p>
+            <p>
+                <label for="email" class="text-cont">Votre e-mail*
+                <input type="email" id="email" name="email" value="" placeholder="entre votre Mail" required class="box">
+                </label>
+            </p>
+            <p>
+            <label for="message" class="text-cont">Votre message*
+                <textarea id="message" name="message"  placeholder="entre votre Message" rows="7" required class="box"></textarea>
+            </label>
+            </p>
+            <div class="check0">
+                <input type="checkbox" id="j'accepte" name="j'accepte"
+                        class="check">
+                <label for="j'accepte" class="check">J'ai compris et j'accepte (2)*</label>
+            </div>
+            <em class="text-cont1">Champs obligatoires*</em>
+            <div>
+            <button type="submit" class="btn1">Envoyer</button>
+            </div>
+            <p class="text_rgpd">(2) En communiquant mes informations, je consens à être recontacté par voie électronique ou téléphonique par Mohamed Daboub. Ces données seront conservées durant 30 jours afin de pouvoir traiter au mieux ma Demande. Je pourrai faire modifier ou supprimer mes informations sur simple demande.</p>
+        </form>
+
+    </section>
+    <footer class="footer">
+        <div class="container1">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Lien</h4>
+                    <ul>
+                        <li><a href="#home">ACCUEIL</a></li>
+                        <li><a href="#let's_draw">C’est Quoi ?</a></li>
+                        <li><a href="#a_propos">À propos</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Obtenir de l'aide</h4>
+                    <ul>
+                        <li><a href="mailto:lets.draw250@gmail.com">lets.draw250@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Informations</h4>
+                    <ul>
+                        <li><a class="mention" href="mentionlegale.html">Mentions légales</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="https://fr-fr.facebook.com/"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/lets_draw_off/"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.pinterest.fr/letsdraw250/_saved/"><i class="bi bi-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 <script src="js/script.js"></script>
 
 </body>

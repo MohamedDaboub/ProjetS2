@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Draw</title>
+    <link rel="icon" type="image/svg"  href="/public/icones/logo-site.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+	<script src="https://animejs.com/lib/anime.min.js"></script>
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+    
+    <div class="gradient-background"></div> 
+
+
+    <header class="header">
+
+        <a href="/index.html#home"><img class="logo-site" src="/public/icones/logo-site.svg" alt=""></a>
+
+        <nav class="navbar">
+            <a href="#let's_draw">C’est quoi ?</a>
+            <a href="#a_propos">À propos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div id="menu-btn"> <i class="bi bi-list"></i></div>
+
+    </header>
+    <main>
+        <section>
+            <h2 class="erroe404">Désolé,
+                Cette page n’existe pas/plus (erreur 404).
+                Rendez-vous sur l’une de nos autres pages pour poursuivre votre visite.</h2> 
+                <form class="errore404__research" action="https://www.google.fr/" method="GET" x-data="{ q:'', }" x-on:submit="q = q + ' '">
+                    <label class="errore404__requete" for="q">Que recherchez-vous ?</label>
+                        <input class="errore404__entrer" type="text" id="q" name="q" x-model="q">
+                    <button class="errore404__button" type="submit">Rechercher</button>
+                </form> 
+                <a class="btn cen" href="/index.html">Retour a l'Accueil</a>     
+                <a class="btn cen" href="http://mmimontbeliard.com/">Département MMI</a>    
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container1">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Lien</h4>
+                    <ul>
+                        <li><a href="/#home">ACCUEIL</a></li>
+                        <li><a href="/#let's_draw">C’est Quoi ?</a></li>
+                        <li><a href="/#a_propos">À propos</a></li>
+                        <li><a href="/#contact">contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Obtenir de l'aide</h4>
+                    <ul>
+                        <li><a href="mailto:lets.draw250@gmail.com">lets.draw250@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Informations</h4>
+                    <ul>
+                        <li><a class="mention" href="/mentionlegale.html">Mentions légales</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="https://fr-fr.facebook.com/"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/lets_draw_off/""><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.pinterest.fr/letsdraw250/_saved/"><i class="bi bi-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+</html>

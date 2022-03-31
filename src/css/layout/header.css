@@ -15,3 +15,23 @@
     letter-spacing: 0.1rem;
     
 }
+.info:hover{
+    background-color: #000;
+    color: #fff;
+}
+.imghome{
+    background-image: url('../../../Public/img/image-9.webp');
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0 3rem;
+    
+}
+
+@media (max-width:450px){
+    .imghome{
+    background-image: url('../../../Public/img/image-9mobile.webp');
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0  3rem;
+    }
+}

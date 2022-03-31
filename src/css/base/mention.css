@@ -1,0 +1,46 @@
+.mentionle{
+    margin-top: 15rem;
+}
+.titre_ment{
+    font-family: 'Tinos', serif ;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 2rem 0;
+    color:  #222;
+
+}
+.titre_h3{
+    font-size: 2rem;
+    margin: 1rem 0;
+    
+}
+.phrase_ment{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 1.5rem 0;
+}
+.marge{
+    margin-top: 0rem;
+}
+.lienment{
+    text-decoration: none;
+    color: #009;
+
+}
+.lienment:hover{
+    text-decoration: underline;    
+}
+@media (max-width:800px)
+{
+    .mot-ment{
+        font-size: 3rem;
+    }
+    .titre_ment{
+        font-family: 'Tinos', serif ;
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 2rem 0;
+        color:  #222;
+    
+    }
+}

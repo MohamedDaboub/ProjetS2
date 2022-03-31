@@ -8,17 +8,11 @@
     margin-top: 3rem;
     margin-bottom: -10rem;
 }
-@media(max-width: 1428px){
-    .text_qui_somme{
-        font-size: 2rem;
-        margin: 1rem;
-    }
-}
-@media(max-width: 500px){
-
-}
 .section_lets{
     padding:2rem 12%;
+}
+.section_lets1{
+    padding:2rem 9%;
 }
 .end{
     text-align: end;

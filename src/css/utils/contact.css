@@ -1,70 +1,81 @@
-.text-cont{
+.text-cont {
     display: block;
     text-align: start;
     font-size: 2rem;
     margin: 1rem 0;
+    color: #fff;
 }
-.text-cont1{
+
+.text-cont1 {
     display: block;
     text-align: start;
     font-size: 1.2rem;
     margin: 1rem 0;
+    color: #fff;
 }
-.check0{
+
+.check0 {
     display: flex;
 }
 
-.check{
+.check {
     font-size: 1.5rem;
     margin: 1rem 5px;
     display: block;
     text-align: start;
+    color: #fff;
 }
-.text_rgpd{
+
+.text_rgpd {
     display: block;
     text-align: start;
     margin: 1rem 0;
     font-size: 1.2rem;
+    color: white;
 }
-.mot-contact{
+
+.mot-contact {
     font-size: 2rem;
     margin: 1rem 0;
+    color: #fff;
 }
-.contact form{
-    max-width:60rem;
-    margin:1rem auto;
+
+.contact form {
+    max-width: 60rem;
+    margin: 1rem auto;
     text-align: center;
-    background:var(--background);
+    background: #123456;
     border-radius: .5rem;
-    border:var(--border);
-    border-top:var(--border-top);
-    border-left:var(--border-left);
+    border: var(--border);
+    border-top: var(--border-top);
+    border-left: var(--border-left);
     box-shadow: var(--box-shadow);
-    padding:2rem;
+    padding: 2rem;
     backdrop-filter: blur(.4rem);
 }
 
-.contact form .box{
+.contact form .box {
     width: 100%;
-    background:var(--background);
+    background: var(--background);
     border-radius: .5rem;
-    margin:.7rem 0;
+    margin: .7rem 0;
     box-shadow: var(--box-shadow);
-    padding:1rem 1.2rem;
+    padding: 1rem 1.2rem;
     font-size: 1.5rem;
-    color:var(--noir);
+    color: var(--noir);
     text-transform: none;
     font-weight: 300;
 }
 
-.contact form .box::placeholder{
-    color:#333;
+.contact form .box::placeholder {
+    color: #aaaaaa;
 }
 
-.contact form textarea{
+.contact form textarea {
     height: 15rem;
     resize: none;
 }
+
 i {
     color: #fff;
 }

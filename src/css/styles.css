@@ -13,80 +13,90 @@
 @import url('base/media.css');
 @import url('components/404.css');
 
-:root{
-    --black:#130f40;
-    --noir:#000;
-    --gradient:linear-gradient(#529BCD, #fff);
+:root {
+    --black: #130f40;
+    --noir: #000;
+    --gradient: #547ACC;
     /* --background:rgba(255,255,255,.1); */
-    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
-    --border:.1rem solid rgba(255,255,255,.1);
-    --border-top:.1rem solid rgba(255,255,255,.3);
-    --border-left:.1rem solid rgba(255,255,255,.3);
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    --border: .1rem solid rgba(255, 255, 255, .1);
+    --border-top: .1rem solid rgba(255, 255, 255, .3);
+    --border-left: .1rem solid rgba(255, 255, 255, .3);
 }
 
-*{
+* {
     font-family: 'Fira Sans', sans-serif;
-    margin: 0;padding: 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    outline: none; border:none;
+    outline: none;
+    border: none;
     text-decoration: none;
 }
-h1, h2, h3, h4, h5, span {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+span {
     font-family: 'Tinos', serif;
     font-weight: 700;
 }
-html{
+
+html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 10rem;
 }
 
-html::-webkit-scrollbar{
-    width:1rem;
+html::-webkit-scrollbar {
+    width: 1rem;
 }
 
-html::-webkit-scrollbar-track{
-    background:linear-gradient(#123456 5% , #529BCD ,#fff );
+html::-webkit-scrollbar-track {
+    background: linear-gradient(#123456 5%, #529BCD, #fff);
 }
 
-html::-webkit-scrollbar-thumb{
-    background:#fff;
+html::-webkit-scrollbar-thumb {
+    background: #fff;
     border-radius: 3rem;
 }
 
-section{
-    padding:2rem 9%;
+section {
+    padding: 2rem 9%;
 }
 
-.heading{
+.heading {
     text-align: center;
     padding-bottom: 2.5rem;
 }
 
-.heading span{
-    background:var(--background);
+.heading span {
+    background: var(--background);
     border-radius: .5rem;
     font-size: 4rem;
-    color:var(--noir);
-    padding:.5rem 1.5rem;
-    text-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    color: var(--noir);
+    padding: .5rem 1.5rem;
+    text-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
-.gradient-background{
+.gradient-background {
     height: 100%;
     width: 100%;
     background: var(--gradient);
     position: fixed;
-    top:0; left: 0;
+    top: 0;
+    left: 0;
     z-index: -1;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 
-.header{
+.header {
     position: fixed;
-    left:50%;
+    left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
     width: 100%;
@@ -94,57 +104,57 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:2rem;
+    padding: 2rem;
     backdrop-filter: blur(.4rem);
 }
 
 
-.header .navbar a{
+.header .navbar a {
     font-size: 2rem;
     margin-left: 4rem;
     margin-right: 1.5rem;
-    color:#fff;
+    color: #fff;
     font-family: 'Yaldevi', sans-serif;
     font-weight: 700;
 }
 
-.header .navbar a:hover{
+.header .navbar a:hover {
     text-decoration: underline #fff;
 }
 
-#menu-btn{
+#menu-btn {
     font-size: 3rem;
     cursor: pointer;
-    color:var(--noir);
+    color: var(--noir);
     display: none;
 }
 
-.home{
+.home {
     height: 100vh;
-    padding:7rem 0rem;
+    padding: 7rem 0rem;
     display: flex;
     align-items: center;
     justify-content: normal;
 }
 
-.home .content{
+.home .content {
     width: 75rem;
     text-align: center;
 }
 
-.home .content h3{
+.home .content h3 {
     color: var(--noir);
     text-transform: uppercase;
     font-size: 3.5rem;
     line-height: 1.5;
-    text-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    text-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     margin-right: 0rem;
     margin-left: 1.5rem;
     margin-right: 0rem;
     text-align: start;
 }
 
-.home .content p{
+.home .content p {
     font-weight: 400;
     color: var(--noir);
     font-size: 2rem;
@@ -156,87 +166,87 @@ section{
     margin-right: -5rem;
 }
 
-@media (max-width:991px){
+@media (max-width:991px) {
 
-    html{
+    html {
         font-size: 55%;
     }
 
-    section{
-        padding:2rem;
+    section {
+        padding: 2rem;
     }
 
 }
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
-    #menu-btn{
+    #menu-btn {
         display: initial;
         transition: .2s linear;
     }
 
-    #menu-btn.fa-times{
+    #menu-btn.fa-times {
         transform: rotate(180deg);
     }
 
-    .header .navbar{
+    .header .navbar {
         position: absolute;
-        top:115%; left:0; right:0;
-        background:var(--gradient);
+        top: 115%;
+        left: 0;
+        right: 0;
+        background: var(--gradient);
         border-radius: .5rem;
         transition: .3s linear;
         box-shadow: var(--box-shadow);
-        padding:.5rem 1.5rem;
+        padding: .5rem 1.5rem;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
-    .header .navbar.active{
+    .header .navbar.active {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
-    .header .navbar a{
+    .header .navbar a {
         font-size: 2rem;
         display: block;
-        background:var(--background);
+        background: var(--background);
         border-radius: .5rem;
-        margin:1.2rem 0;
-        padding:1.5rem;
-        border:var(--border);
-        border-top:var(--border-top);
-        border-left:var(--border-left);
+        margin: 1.2rem 0;
+        padding: 1.5rem;
+        border: var(--border);
+        border-top: var(--border-top);
+        border-left: var(--border-left);
         box-shadow: var(--box-shadow);
     }
 
-    .home .content h3{
+    .home .content h3 {
         font-size: 2.6rem;
         margin: 1.2rem;
         margin-right: 3rem;
     }
 
-    .home .content p{
+    .home .content p {
         font-size: 1.8rem;
         margin-right: 3rem;
     }
 
 }
 
-@media (max-width:450px){
+@media (max-width:450px) {
 
-    html{
+    html {
         font-size: 50%;
     }
 
-    .heading span{
+    .heading span {
         font-size: 2.6rem;
     }
 
 }
-@media(max-width: 1428px){
-    .text_qui_somme{
+
+@media(max-width: 1428px) {
+    .text_qui_somme {
         font-size: 2rem;
         margin: 1rem;
     }
 }
-
-
-
